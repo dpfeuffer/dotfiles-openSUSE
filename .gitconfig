@@ -1,0 +1,25 @@
+[user]
+	name = Dieter Pfeuffer
+	email = Dieter.Pfeuffer@men.de
+[alias]
+	dplog = log --pretty=format:'%h %ad %C(auto) | %s%d [%an]' --graph --date=short --color-words --all
+	ll = log --graph --decorate --abbrev-commit --date-order
+	lla = !git ll --all
+	lsa = !git ls --all
+	lva = !git lv --all
+	ls = log --graph --date=format:\"%y-%m-%d %H:%M\" --format=format:\"%C(yellow)%h %C(cyan)%cd %C(yellow)%<|(37,trunc)%cn %Cgreen%d%n        %<(70,trunc)%s\" --date-order
+	lv = log --graph --format=format:\"%C(yellow)%h%Creset %<(55,trunc)%s %Cgreen%<(25,trunc)%d\" --date-order
+[core]
+	editor = vim
+[diff]
+	tool = meld
+[difftool]
+        prompt = false
+[difftool "meld"]
+	cmd = meld "$LOCAL" "$REMOTE"
+[merge]
+	tool = meld
+[mergetool "meld"]
+        cmd = meld "$LOCAL" "$MERGED" "$REMOTE" --output "$MERGED" 
+[push]
+	default = simple
