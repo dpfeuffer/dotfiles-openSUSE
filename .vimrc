@@ -5,6 +5,9 @@
 " Cancel the compatibility with Vi
 set nocompatible
 
+" Activate pathogen
+call pathogen#infect()
+
 " -- Display
 set title                 " Update the title of your window or your terminal
 set number                " Display line numbers
@@ -49,14 +52,9 @@ filetype plugin on
 set background=dark
 colorscheme solarized
 
-" Windows bash specific fix to use Solarized colour scheme
-" with Windows Console colours from https://github.com/neilpa/cmd-colors-solarized
-set term=screen-256color
-set t_ut=
-
 " Change the font
-"set guifont=DejaVu\ Sans\ Mono\ 10
-"set antialias
+set guifont=DejaVu\ Sans\ Mono\ 10
+set antialias
 
 " Disabling the directional keys
 map <up> <nop>
@@ -73,3 +71,6 @@ imap <right> <nop>
 
 " Remap Shift-Space for Esc
 :imap <S-Space> <Esc>
+
+" Activate the NERDTree when launching vim
+"autocmd vimenter * NERDTree
