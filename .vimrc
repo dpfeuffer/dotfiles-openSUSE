@@ -74,3 +74,6 @@ imap <right> <nop>
 
 " Activate the NERDTree when launching vim
 "autocmd vimenter * NERDTree
+
+let mapleader = ","
+
