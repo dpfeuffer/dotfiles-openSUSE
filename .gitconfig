@@ -12,11 +12,11 @@
 [core]
 	editor = vim
 [diff]
-	tool = meld
+	tool = code
 [difftool]
         prompt = false
-[difftool "meld"]
-	cmd = meld "$LOCAL" "$REMOTE"
+[difftool "code"]
+	cmd = code --wait --diff "$LOCAL" "$REMOTE"
 [merge]
 	tool = meld
 [mergetool "meld"]
