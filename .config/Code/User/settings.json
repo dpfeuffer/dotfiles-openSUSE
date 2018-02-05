@@ -1,10 +1,16 @@
 {
+    "python.disablePromptForFeatures": [
+        "pylint"
     "vim.insertModeKeyBindings": [
         {
             "before": ["j", "j"],
             "after": ["<Esc>"]
         }
     ],
+    "files.exclude": {
+        "**/.git": true,
+        "**/*.pyc": true
+    },
     "python.linting.pep8Enabled": true,
     "python.linting.pylintEnabled": false,
     "code-runner.executorMap": {
