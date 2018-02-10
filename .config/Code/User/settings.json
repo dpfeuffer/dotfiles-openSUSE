@@ -31,6 +31,10 @@
         "<C-f>": false
     },
     "vim.cmdLineInitialColon": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/*.pyc": true
+    },
     "python.linting.pep8Enabled": true,
     "python.linting.pylintEnabled": false,
     "code-runner.executorMap": {
