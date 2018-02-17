@@ -78,5 +78,6 @@
         "haskell": "runhaskell",
         "nim": "nim compile --verbosity:0 --hints:off --run"
     },
-    "files.autoSave": "onFocusChange",
+    "files.autoSave": "afterDelay",
+    "gitlens.gitExplorer.files.layout": "auto",
 }
