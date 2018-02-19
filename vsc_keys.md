@@ -55,7 +55,7 @@ Working with extensions:
 ## Language Support
 
 - `<Ctrl-Space>` open intelli sense (quick info)
->- `???` scroll into intelli sense list without cursor keys?
+- `<Ctrl-n/p>` navigate to next/previous entry in intelli sense list
 - `<Ctrl-Shift-i>` format entire active file (e.g. with autopep8)
 - `<F12>` goto definition of current symbol
 - `<Ctrl-Shift-o>` navigate symbols inside file (: to group it)
