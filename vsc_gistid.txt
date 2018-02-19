@@ -1,9 +1,0 @@
-code-settings-sync
-c28f0777b30676ceb355ec8a1e75ad957942c060
-
-Sync : Upload Complete. GIST ID : ad71adc191f1c0368178bdded150a31d .
-Please copy and use this ID in other machines to download settings.
-
-
-
-
