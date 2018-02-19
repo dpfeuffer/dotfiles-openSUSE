@@ -80,5 +80,5 @@
     },
     "editor.insertSpaces": false,
     "files.autoSave": "afterDelay",
-    "gitlens.gitExplorer.files.layout": "auto",
+    "gitlens.codeLens.enabled": false,
 }
