@@ -18,15 +18,17 @@ Working with extensions:
 ## Window Navigation
 
 - `<Ctrl-Shift-e>` open explorer window
+  - `o` open/close folder
+  - `enter` open current file
 - `<Ctrl-Shift-f>` open find window
 - `<Ctrl-Shift-g>` open git window
 - `<Ctrl-Shift-d>` open debug window
 - `<Ctrl-Shift-x>` open extensions window
->- `???` close left special window
+- `<Ctrl-b>` toggle side bar
 - `<Ctrl-Shift-m>` show problem window at bottom
 - `<Ctrl-Shift-y>` show debug console at bottom
 - `<Ctrl-Shift-´>` show terminal window at bottom
-- `<Ctrl-p>` open file list to open file by name typing
+- `<Ctrl-p>` open file-list to open file by name typing or `<Ctrl(-Shift)-p>` navigation
 - `<Ctrl-w> + h/j/k/l` move focus to left/down/up/right window
 - `:vsp` veritcal split
 
@@ -37,11 +39,6 @@ Working with extensions:
 - `<Ctrl-u>` go up half a page
 - `G` go to bottom of list
 - `gg` go to top of list
-
-### Inside explorer list
-
-- `o` open/close folder
-- `enter` open current file
 
 ## Move Line
 
@@ -55,7 +52,7 @@ Working with extensions:
 ## Language Support
 
 - `<Ctrl-Space>` open intelli sense (quick info)
-- `<Ctrl-n/p>` navigate to next/previous entry in intelli sense list
+  - `<Ctrl-n/p>` navigate to next/previous entry in intelli sense list
 - `<Ctrl-Shift-i>` format entire active file (e.g. with autopep8)
 - `<F12>` goto definition of current symbol
 - `<Ctrl-Shift-o>` navigate symbols inside file (: to group it)
