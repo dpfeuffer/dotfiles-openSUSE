@@ -12,7 +12,7 @@ Working with extensions:
 
 ## Common
 
-- `<Ctrl-Shift-p>` VSC command line
+- `<Ctrl-Shift-p>` or `<F1>` VSC command palette
 - `<Ctrl-s>` save current file
 
 ## Window Navigation
@@ -31,6 +31,10 @@ Working with extensions:
 - `<Ctrl-p>` open file-list to open file by name typing or `<Ctrl(-Shift)-p>` navigation
 - `<Ctrl-w> + h/j/k/l` move focus to left/down/up/right window
 - `:vsp` veritcal split
+- `:q` close current window
+- `<F11>` toggle full screen
+- `<Ctrl-'='>` zoom in
+- `<Ctrl-'-'>` zoom out
 
 ## File Navigation
 
@@ -39,6 +43,9 @@ Working with extensions:
 - `<Ctrl-u>` go up half a page
 - `G` go to bottom of list
 - `gg` go to top of list
+- `line-nbr + <Shift-g>` go to line-nbr
+- `<Ctrl-Alt-'-'>` go to last cursor positions
+- `<Ctrl-Shift-'-'>` go to next cursor positions
 
 ## Move Line
 
@@ -48,6 +55,7 @@ Working with extensions:
 
 - `<Ctrl-f>` find in current file
 - `<Ctrl-h>` replace in current file
+- `<Ctrl-n>` turn off search highlighting
 
 ## Language Support
 
@@ -73,3 +81,17 @@ Working with extensions:
 
 - `<Shift-Alt-u>` upload settings to gist
 - `<Shift-Alt-d>` download settings to gist
+
+## vim-easymotion
+
+- `<leader> + <leader> + w/b` start of word forward/backward
+- `<leader> + <leader> + e/ge` end of word forward/backwar
+- `<leader> + <leader> + j` start of line forward
+- `<leader> + <leader> + k` start of line backward
+- and many oteher possibilities
+
+## vim-surround
+
+- `d + s + <existing char>` delete existing surround
+- `c + s + <existing char> <desired char>` change existing to desired surround
+- visual-selection `<Shift-s> + <desired char>` surround visual-selection with desired
