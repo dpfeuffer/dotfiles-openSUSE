@@ -95,3 +95,7 @@ Working with extensions:
 - `d + s + <existing char>` delete existing surround
 - `c + s + <existing char> <desired char>` change existing to desired surround
 - visual-selection `<Shift-s> + <desired char>` surround visual-selection with desired
+
+## vim insert mode
+
+- TODO `<Ctrl-n>` keyword completion
