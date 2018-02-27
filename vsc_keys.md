@@ -62,7 +62,7 @@ Working with extensions:
 - `<Ctrl-Space>` open intelli sense (quick info)
   - `<Ctrl-n/p>` navigate to next/previous entry in intelli sense list
 - `<Ctrl-Shift-i>` format entire active file (e.g. with autopep8)
-- `<F12>` goto definition of current symbol
+- `gd` or `<F12>` goto definition of current symbol
 - `<Ctrl-Shift-o>` navigate symbols inside file (: to group it)
 - `<Ctrl-Shift-F10>` peek definition of current symbol
 - `<F2>` refactoring current symbol
@@ -82,7 +82,14 @@ Working with extensions:
 - `<Shift-Alt-u>` upload settings to gist
 - `<Shift-Alt-d>` download settings to gist
 
-## vim-easymotion
+## vscodevim
+
+- `gq` on a visual selection reflow and wordwrap blocks of text
+- `gb` add another cursor on the next word it finds as the word under the cursor
+- `af` visual mode command which selects increasingly large blocks of text
+- `gh` equivalent to hovering your mouse over wherever the cursor is
+
+### vim-easymotion
 
 - `<leader> + <leader> + w/b` start of word forward/backward
 - `<leader> + <leader> + e/ge` end of word forward/backwar
@@ -90,12 +97,24 @@ Working with extensions:
 - `<leader> + <leader> + k` start of line backward
 - and many oteher possibilities
 
-## vim-surround
+### vim-surround
 
 - `d + s + <existing char>` delete existing surround
 - `c + s + <existing char> <desired char>` change existing to desired surround
 - visual-selection `<Shift-s> + <desired char>` surround visual-selection with desired
 
-## vim insert mode
+### vim-commentary
 
-- TODO `<Ctrl-n>` keyword completion
+- `gc<range>` toggle line comment for specified range (e.g. gcc, gc2j, visual selection)
+- `gC<range>` toggle block comment for specified range (e.g. gCi), gc2j, visual selection)
+
+### vim-indent-object
+
+- `<operator>ii` use this indentation level (e.g. vii to visual select it)
+- `<operator>ai` use this indentation level and the line above
+- `<operator>aI` use this indentation level and the line above and after
+
+### not supported vim keybindings
+
+insert mode
+- `<Ctrl-n>` keyword completion
