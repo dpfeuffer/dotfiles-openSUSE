@@ -12,10 +12,14 @@ Working with extensions:
 
 ## Common
 
+### Common --- vscode
+
 - `<Ctrl-Shift-p>` or `<F1>` VSC command palette
 - `<Ctrl-s>` save current file
 
 ## Window Navigation
+
+### Window Navigation --- vscode
 
 - `<Ctrl-Shift-e>` open explorer window
   - `o` open/close folder
@@ -29,14 +33,29 @@ Working with extensions:
 - `<Ctrl-Shift-y>` show debug console at bottom
 - `<Ctrl-Shift-´>` show terminal window at bottom
 - `<Ctrl-p>` open file-list to open file by name typing or `<Ctrl(-Shift)-p>` navigation
+- `<F11>` toggle full screen
+- `<Ctrl-Shift'-0'>` zoom in
+- `<Ctrl-'-'>` zoom out
+
+### Window Navigation --- vim
+
 - `<Ctrl-w> + h/j/k/l` move focus to left/down/up/right window
 - `:vsp` veritcal split
 - `:q` close current window
-- `<F11>` toggle full screen
-- `<Ctrl-'='>` zoom in
-- `<Ctrl-'-'>` zoom out
 
-## File Navigation
+## File Edit & Navigation
+
+### File Edit & Navigation --- vscode
+
+- `<Ctrl-Alt-'-'>` go to last cursor positions
+- `<Ctrl-Shift-'-'>` go to next cursor positions
+- `<Alt-Up/Down>` move current line up/down
+- `gb` add another cursor on the next word it finds as the word under the cursor
+- `gh` equivalent to hovering your mouse over wherever the cursor is
+- visual selection `gq` reflow and wordwrap blocks of text
+- visual setection `af` select increasingly large blocks of text
+
+### File Edit & Navigation --- vim
 
 - `h/j/k/l` move left/down/up/right
 - `<Ctrl-d>` go down half a page
@@ -44,14 +63,11 @@ Working with extensions:
 - `G` go to bottom of list
 - `gg` go to top of list
 - `line-nbr + <Shift-g>` go to line-nbr
-- `<Ctrl-Alt-'-'>` go to last cursor positions
-- `<Ctrl-Shift-'-'>` go to next cursor positions
-
-## Move Line
-
-- `<Alt-Up/Down>` move current line up/down
+- `gd` goto definition of current symbol
 
 ## Search & Replace
+
+### Search & Replace --- vscode
 
 - `<Ctrl-f>` find in current file
 - `<Ctrl-h>` replace in current file
@@ -59,15 +75,18 @@ Working with extensions:
 
 ## Language Support
 
+### Language Support --- vscode
+
 - `<Ctrl-Space>` open intelli sense (quick info)
   - `<Ctrl-n/p>` navigate to next/previous entry in intelli sense list
 - `<Ctrl-Shift-i>` format entire active file (e.g. with autopep8)
-- `gd` or `<F12>` goto definition of current symbol
 - `<Ctrl-Shift-o>` navigate symbols inside file (: to group it)
 - `<Ctrl-Shift-F10>` peek definition of current symbol
 - `<F2>` refactoring current symbol
 
 ## Debug Support
+
+### Debug Support --- vscode
 
 - `<F5>` debug current active file
 - `<F10>` step over
@@ -77,17 +96,7 @@ Working with extensions:
 - `<Shift-F5>` stop
 - `<Ctrl-F5>` start without debugging
 
-## code-settings-sync
-
-- `<Shift-Alt-u>` upload settings to gist
-- `<Shift-Alt-d>` download settings to gist
-
-## vscodevim
-
-- `gq` on a visual selection reflow and wordwrap blocks of text
-- `gb` add another cursor on the next word it finds as the word under the cursor
-- `af` visual mode command which selects increasingly large blocks of text
-- `gh` equivalent to hovering your mouse over wherever the cursor is
+## Emulated VIM Plugins
 
 ### vim-easymotion
 
@@ -118,3 +127,8 @@ Working with extensions:
 
 insert mode
 - `<Ctrl-n>` keyword completion
+
+## Plugin: code-settings-sync
+
+- `<Shift-Alt-u>` upload settings to gist
+- `<Shift-Alt-d>` download settings to gist
