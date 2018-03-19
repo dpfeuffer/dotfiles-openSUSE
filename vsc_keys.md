@@ -50,6 +50,8 @@ Working with extensions:
 - `<Ctrl-Alt-'-'>` go to last cursor positions
 - `<Ctrl-Shift-'-'>` go to next cursor positions
 - `<Alt-Up/Down>` move current line up/down
+- `<Ctrl-Shift-Up>` add another cursor above
+- `<Ctrl-Shift-Down>` add another cursor below
 - `gb` add another cursor on the next word it finds as the word under the cursor
 - `gh` equivalent to hovering your mouse over wherever the cursor is
 - visual selection `gq` reflow and wordwrap blocks of text
