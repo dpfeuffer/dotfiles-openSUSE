@@ -66,6 +66,8 @@ Working with extensions:
 - `gg` go to top of list
 - `line-nbr + <Shift-g>` go to line-nbr
 - `gd` goto definition of current symbol
+- `<` indent line or visual block left
+- `>` indent line or visual block right
 
 ## Search & Replace
 
