@@ -129,8 +129,7 @@ Working with extensions:
 
 ### not supported vim keybindings
 
-insert mode
-- `<Ctrl-n>` keyword completion
+- `<Ctrl-n>` insert mode: keyword completion
 
 ## Plugin: code-settings-sync
 
