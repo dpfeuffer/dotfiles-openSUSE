@@ -22,8 +22,8 @@ Working with extensions:
 ### Window Navigation --- vscode
 
 - `<Ctrl-Shift-e>` open explorer window
-  - `o` open/close folder
-  - `enter` open current file
+- `o` open/close folder
+- `enter` open current file
 - `<Ctrl-Shift-f>` open find window
 - `<Ctrl-Shift-g>` open git window
 - `<Ctrl-Shift-d>` open debug window
@@ -82,7 +82,7 @@ Working with extensions:
 ### Language Support --- vscode
 
 - `<Ctrl-Space>` open intelli sense (quick info)
-  - `<Ctrl-n/p>` navigate to next/previous entry in intelli sense list
+- `<Ctrl-n/p>` navigate to next/previous entry in intelli sense list
 - `<Ctrl-Shift-i>` format entire active file (e.g. with autopep8)
 - `<Ctrl-Shift-o>` navigate symbols inside file (: to group it)
 - `<Ctrl-Shift-F10>` peek definition of current symbol
