@@ -14,8 +14,9 @@ Working with extensions:
 
 ### Common --- vscode
 
-- `<Ctrl-Shift-p>` or `<F1>` VSC command palette
+- `<Ctrl-Shift-p>` or `<F1>` open command palette
 - `<Ctrl-s>` save current file
+- `<Ctrl-,>` open preferences
 
 ## Window Navigation
 
