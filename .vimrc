@@ -5,12 +5,14 @@
 " Cancel the compatibility with Vi
 set nocompatible
 
+set encoding=utf-8
+
 " Activate pathogen
-call pathogen#infect()
+"call pathogen#infect()
 
 " -- Display
 set title                 " Update the title of your window or your terminal
-set number                " Display line numbers
+"set number                " Display line numbers
 set ruler                 " Display cursor position
 set wrap                  " Wrap lines when they are too long
 
@@ -18,6 +20,9 @@ set scrolloff=3           " Display at least 3 lines around you cursor
                           " (for scrolling)
 
 set guioptions=T          " Enable the toolbar
+
+" Configure status line
+set laststatus=2
 
 " -- Search
 set ignorecase            " Ignore case when searching
@@ -44,27 +49,27 @@ set hidden
 syntax enable
 
 " Enable file specific behavior like syntax highlighting and indentation
-filetype on
-filetype plugin on
+"filetype on
+"filetype plugin on
 "filetype indent on
 
 " Use the dark version of Solarized
-set background=dark
-colorscheme solarized
+"set background=dark
+"colorscheme solarized
 
 " Change the font
 set guifont=DejaVu\ Sans\ Mono\ 10
 set antialias
 
 " Disabling the directional keys
-map <up> <nop>
-map <down> <nop>
-map <left> <nop>
-map <right> <nop>
-imap <up> <nop>
-imap <down> <nop>
-imap <left> <nop>
-imap <right> <nop>
+"map <up> <nop>
+"map <down> <nop>
+"map <left> <nop>
+"map <right> <nop>
+"imap <up> <nop>
+"imap <down> <nop>
+"imap <left> <nop>
+"imap <right> <nop>
 
 " Press the j 2 times in row
 :imap jj <Esc>
@@ -81,7 +86,7 @@ set shiftwidth=4    " Indents will have a width of 4
 
 set softtabstop=4   " Sets the number of columns for a TAB
 
-set expandtab       " Expand TABs to spaces
+:set expandtab       " Expand TABs to spaces
 
 " Activate the NERDTree when launching vim
 "autocmd vimenter * NERDTree
